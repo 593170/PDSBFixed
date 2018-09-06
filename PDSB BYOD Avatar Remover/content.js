@@ -1,4 +1,3 @@
-
 var url = window.location.href;
 
 if (url = "https://byod.peelschools.org/") {
@@ -13,8 +12,8 @@ namel[0].innerHTML = "@pdsbfixed"
 element[0].style.backgroundImage = "url('https://github.com/593170/PDSBFixed/blob/master/pdsbfixed.png?raw=true')";
 element[0].style.backgroundColor = "white";
 
-var randomNumber = Math.floor(Math.random() * 13); // <-- number should be one higher than the amount of phrases
-//var randomNumber = 12
+//var randomNumber = Math.floor(Math.random() * 13); // <-- number should be one higher than the amount of phrases
+var randomNumber = 19
 	console.log("List selection: " + randomNumber);
 
 if (randomNumber == 0) {
@@ -59,6 +58,28 @@ if (randomNumber == 0) {
 	text1.style.color = "red";
 	text1.style.fontFamily = "Papyrus";
 	text2.innerHTML = "";
+} else if (randomNumber == 13) {
+	text1.innerHTML = "Road work ahead?";
+	text2.innerHTML = "Uh yeah I sure hope it does";
+} else if (randomNumber == 14) {
+	text1.innerHTML = "D rose D rose D rose D rose";
+	text2.innerHTML = "D rose D rose D rose D rose D rose D rose D rose D rose D rose D rose D rose D rose";
+} else if (randomNumber == 15) {
+	text1.innerHTML = "gucci gang gucci gang gucci gang gucci gang gucci gang gucci gang gucci gang gucci gang";
+	text2.innerHTML = "spent 10 racks on new chain";
+} else if (randomNumber == 16) {
+	text1.innerHTML = "I did not hit her it's not true I did not";
+	text2.innerHTML = "Oh hi mark";
+} else if (randomNumber == 17) {
+	text1.innerHTML = "Yall mind if I hit that <i>OwO</i>";
+	text2.innerHTML = "";
+} else if (randomNumber == 18) {
+	text1.innerHTML = "des pa cito";
+	text2.innerHTML = "";
+} else if (randomNumber == 19) {
+	text1.innerHTML = "\"only speak the language of a lettuce\"";
+	element[0].style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Xxxtentacion.jpg/220px-Xxxtentacion.jpg')";
+	text2.innerHTML = "- xxxtentacion";
 
 
 } else {
