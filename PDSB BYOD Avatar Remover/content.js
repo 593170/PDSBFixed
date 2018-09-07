@@ -1,7 +1,17 @@
 var url = window.location.href;
 
-if (url = "https://byod.peelschools.org/") {
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
 
+
+if (url = "https://byod.peelschools.org/") {
+	
 var element = document.getElementById("Avatar").children;
 var namef = document.getElementsByClassName("n-f");
 var namel = document.getElementsByClassName("n-l");
@@ -13,7 +23,7 @@ element[0].style.backgroundImage = "url('https://github.com/593170/PDSBFixed/blo
 element[0].style.backgroundColor = "white";
 
 //var randomNumber = Math.floor(Math.random() * 13); // <-- number should be one higher than the amount of phrases
-var randomNumber = 19
+var randomNumber = 21;
 	console.log("List selection: " + randomNumber);
 
 if (randomNumber == 0) {
@@ -80,11 +90,19 @@ if (randomNumber == 0) {
 	text1.innerHTML = "\"only speak the language of a lettuce\"";
 	element[0].style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Xxxtentacion.jpg/220px-Xxxtentacion.jpg')";
 	text2.innerHTML = "- xxxtentacion";
+} else if (randomNumber == 20) {
+	text1.innerHTML = "BOIIIII";
+	text2.innerHTML = "";
+} else if (randomNumber == 21) {
+	text1.innerHTML = "pass the boof";
+	text2.innerHTML = "";
+	element[0].style.backgroundImage = "url('https://imageproxy.ifcdn.com/resize:320x,crop:x800,quality:90x75/images/1707ba3254d3d3cd4f0f2f468a8ce54e8cd08910cdacf66763820397b912e4cc_3.jpg')";
 
 
 } else {
 	goto (1);
 }
+
 
 
 } 
