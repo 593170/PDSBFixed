@@ -97,7 +97,10 @@ if (randomNumber == 0) {
 	text1.innerHTML = "pass the boof";
 	text2.innerHTML = "";
 	element[0].style.backgroundImage = "url('https://imageproxy.ifcdn.com/resize:320x,crop:x800,quality:90x75/images/1707ba3254d3d3cd4f0f2f468a8ce54e8cd08910cdacf66763820397b912e4cc_3.jpg')";
-
+	text2.innerHTML = "";
+} else if (randomNumber == 21) {
+	text1.innerHTML = "Why my pump do 9 damage?";
+	text2.innerHTML = "";
 
 } else {
 	goto (1);
